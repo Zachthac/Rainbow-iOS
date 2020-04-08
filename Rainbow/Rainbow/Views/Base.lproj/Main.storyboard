@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Colors Table View Controller-->
         <scene sceneID="f7w-OF-Ctb">
             <objects>
-                <tableViewController id="a5d-af-1Nd" sceneMemberID="viewController">
+                <tableViewController id="a5d-af-1Nd" customClass="ColorsTableViewController" customModule="Rainbow" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="OHZ-b4-rwQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,7 +33,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="8wd-rC-gA0" kind="show" id="yHO-fD-p2B"/>
+                                    <segue destination="8wd-rC-gA0" kind="show" identifier="ToDetailSegue" id="yHO-fD-p2B"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="489.85507246376818" y="22.767857142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Color Detail View Controller-->
         <scene sceneID="nOj-jl-MTp">
             <objects>
-                <viewController id="8wd-rC-gA0" sceneMemberID="viewController">
+                <viewController id="8wd-rC-gA0" customClass="ColorDetailViewController" customModule="Rainbow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ahJ-nt-Erb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
