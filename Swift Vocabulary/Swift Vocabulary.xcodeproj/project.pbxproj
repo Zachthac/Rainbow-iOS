@@ -14,6 +14,7 @@
 		AB447A64243EB5170061A2C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB447A62243EB5170061A2C4 /* LaunchScreen.storyboard */; };
 		AB447A6C243EB7660061A2C4 /* WordsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB447A6B243EB7660061A2C4 /* WordsTableTableViewController.swift */; };
 		AB447A6E243EB7F80061A2C4 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB447A6D243EB7F80061A2C4 /* DefinitionViewController.swift */; };
+		AB447A70243ECB870061A2C4 /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB447A6F243ECB870061A2C4 /* VocabularyWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AB447A65243EB5170061A2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB447A6B243EB7660061A2C4 /* WordsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableTableViewController.swift; sourceTree = "<group>"; };
 		AB447A6D243EB7F80061A2C4 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		AB447A6F243ECB870061A2C4 /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		AB447A4B243EB4DD0061A2C4 = {
 			isa = PBXGroup;
 			children = (
+				AB447A6F243ECB870061A2C4 /* VocabularyWord.swift */,
 				AB447A6D243EB7F80061A2C4 /* DefinitionViewController.swift */,
 				AB447A6B243EB7660061A2C4 /* WordsTableTableViewController.swift */,
 				AB447A56243EB4DD0061A2C4 /* Swift Vocabulary */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB447A70243ECB870061A2C4 /* VocabularyWord.swift in Sources */,
 				AB447A6C243EB7660061A2C4 /* WordsTableTableViewController.swift in Sources */,
 				AB447A58243EB4DE0061A2C4 /* AppDelegate.swift in Sources */,
 				AB447A5A243EB4DE0061A2C4 /* SceneDelegate.swift in Sources */,
